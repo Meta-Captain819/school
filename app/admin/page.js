@@ -38,7 +38,7 @@ export default function AdminPage() {
   // Logout function
   const handleLogout = async () => {
     try {
-      const res = await fetch("/api/auth/Logout", { method: "POST" });
+      const res = await fetch("/api/Logout", { method: "POST" });
       if (res.ok) {
         window.location.href = "/";
       } else {
