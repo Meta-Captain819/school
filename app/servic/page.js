@@ -77,7 +77,7 @@ export default function ServicesPage() {
               className="bg-white shadow-lg rounded-2xl p-6 flex flex-col items-center text-center transition-transform hover:scale-105 hover:shadow-2xl"
               variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0 } }}
             >
-              <div className="bg-blue-500 text-white p-4 rounded-full mb-4">
+              <div className="bg-yellow-400 text-white p-4 rounded-full mb-4">
                 {service.icon}
               </div>
               <h3 className="text-2xl font-semibold">{service.title}</h3>

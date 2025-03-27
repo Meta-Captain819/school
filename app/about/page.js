@@ -10,7 +10,7 @@ export default function AboutPage() {
       
       {/* Hero Section */}
       <section className="relative h-[800px] md:h-[600px] flex flex-col items-center justify-center bg-cover bg-center text-white px-4"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1613896527026-f195d5c818ed?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}
+        style={{ backgroundImage: "url('/about.jpg')" }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <motion.div 
@@ -29,7 +29,7 @@ export default function AboutPage() {
       <section className="py-16 px-4 md:px-6 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 z-10">
         
         <motion.div 
-          className="bg-blue-600 text-white p-6 md:p-8 rounded-xl shadow-md"
+          className="bg-yellow-400 text-white p-6 md:p-8 rounded-xl shadow-md"
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
@@ -83,7 +83,7 @@ export default function AboutPage() {
                 transition={{ duration: 0.5, delay: index * 0.2 }}
                 viewport={{ once: true }}
               >
-                <CheckCircle size={40} className="text-blue-600 mb-3" />
+                <CheckCircle size={40} className="text-yellow-400 mb-3" />
                 <h3 className="text-xl md:text-2xl font-bold">{item.title}</h3>
                 <p className="text-gray-600 mt-2 text-sm md:text-base">{item.desc}</p>
               </motion.div>

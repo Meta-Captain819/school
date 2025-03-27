@@ -28,10 +28,9 @@ export default function SchoolInfo() {
             We offer a structured curriculum for students of all ages.
           </p>
           <ul className="mt-6 text-lg text-gray-700 space-y-3">
-            <li>📘 Kindergarten - Grade 2</li>
+            <li>📘 Montessori - Grade 2</li>
             <li>📗 Grade 3 - Grade 5</li>
             <li>📙 Middle School - Grade 6 - Grade 8</li>
-            <li>📕 High School - Grade 9 - Grade 10</li>
             <li>🎭 Special Programs & Extracurricular Activities</li>
           </ul>
         </div>
@@ -61,13 +60,16 @@ export default function SchoolInfo() {
           <p className="mt-3 text-xl  font-bold">
             Secure your child’s future by enrolling now in our premier school.
           </p>
+          <a href="/admission">
+
           <motion.button
-            className="mt-6 cursor-pointer bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-gray-100 transition-all"
+            className="mt-6 cursor-pointer bg-white text-yellow-400 px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-gray-100 transition-all"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.9 }}
-          >
+            >
             Apply Now
           </motion.button>
+            </a>
         </div>
         
       </motion.section>

@@ -12,7 +12,7 @@ export default function ContactPage() {
       {/* Hero Section */}
       <motion.div
         className="relative w-full h-[50vh] flex items-center justify-center bg-cover bg-center"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1577333669362-4312da04c2e4?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}
+        style={{ backgroundImage: "url('/contact.jpg')" }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
@@ -34,22 +34,22 @@ export default function ContactPage() {
           
           {/* School Contact Information */}
           <motion.div
-            className="bg-white shadow-lg rounded-2xl p-8 flex flex-col space-y-6"
+            className="bg-white shadow-lg rounded-2xl p-8 flex flex-col space-y-10"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-3xl font-bold text-gray-800">📍 School Information</h2>
-            <div className="flex items-center space-x-4">
-              <MapPin size={28} className="text-blue-500" />
-              <p className="text-gray-700">123 Education Road, City Name, Country</p>
+            <div className="flex items-center space-x-6">
+              <MapPin size={28} className="text-yellow-400" />
+              <p className="text-gray-700">28D, 6th Road, Satellite Town, Rawalpindi, Pakistan</p>
+            </div>
+            <div className="flex items-center space-x-6">
+              <PhoneCall size={28} className="text-yellow-400" />
+              <p className="text-gray-700">0333-5552471 | 0334-5822151</p>
             </div>
             <div className="flex items-center space-x-4">
-              <PhoneCall size={28} className="text-blue-500" />
-              <p className="text-gray-700">+123 456 7890</p>
-            </div>
-            <div className="flex items-center space-x-4">
-              <Mail size={28} className="text-blue-500" />
+              <Mail size={28} className="text-yellow-400" />
               <p className="text-gray-700">info@schoolname.com</p>
             </div>
           </motion.div>
@@ -68,7 +68,7 @@ export default function ContactPage() {
             <FaWhatsapp size={50} />
             <h2 className="text-3xl font-bold mt-4">💬 Chat with Us on WhatsApp</h2>
             <p className="text-lg mt-2">Need instant help? Click below to chat with us on WhatsApp.</p>
-            <Link href="https://wa.me/1234567890" target="_blank">
+            <Link href="https://api.whatsapp.com/send?phone=%2B923335552471&context=AfcZaiNzRW2_hrWMxfGL-GjDXjEoLy_vnx_81TaIUn1N4HjC1E3ehkB8A473thZT4z093BCyNDkcfV11jU0yQ55X_V54aOegs_oOgRtxS5pv7Wm8oLUB-BD_VfwERK-QQO2oWRyxIHI6yJc755NP7Xl0mQ&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwY2xjawJSYNFleHRuA2FlbQIxMAABHfbt6Ir9Q0kXSxjrfvENy2EzfxsGQkWc2HYSBjfg6tL21BeMz003AHeEow_aem_YMZw5WsZIE7ut3PqHGuNlg" target="_blank">
               <motion.button
                 className="mt-4 px-6 py-3 bg-white text-green-600 font-semibold rounded-lg hover:bg-gray-200 transition"
                 whileHover={{ scale: 1.1 }}

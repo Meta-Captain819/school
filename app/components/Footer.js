@@ -17,9 +17,9 @@ export default function Footer() {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-2xl font-bold text-blue-500">Our School</h2>
+          <h2 className="text-2xl font-bold text-yellow-400">Our School</h2>
           <p className="text-gray-400">
-            Providing quality education with a focus on holistic development. Excellence in academics and extracurricular activities.
+          Ansaar-e-Muhammad School System offers a perfect blend of academic excellence and Islamic values, shaping confident and successful individuals.
           </p>
         </motion.div>
 
@@ -31,11 +31,11 @@ export default function Footer() {
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-2xl font-bold text-blue-500">Quick Links</h2>
+          <h2 className="text-2xl font-bold text-yellow-400">Quick Links</h2>
           <ul className="space-y-2">
             {["Home", "about", "servic", "contact"].map((link, index) => (
               <li key={index}>
-                <Link href={`/${link.toLowerCase()}`} className="text-gray-400 hover:text-blue-500 transition duration-300">
+                <Link href={`/${link.toLowerCase()}`} className="text-gray-400 hover:text-yellow-400 transition duration-300">
                   {link}
                 </Link>
               </li>
@@ -51,11 +51,11 @@ export default function Footer() {
           transition={{ duration: 0.8, delay: 0.4 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-2xl font-bold text-blue-500">Contact Us</h2>
+          <h2 className="text-2xl font-bold text-yellow-400">Contact Us</h2>
           <div className="text-gray-400 space-y-2">
-            <p className="flex items-center gap-2"><MapPin className="text-blue-500" />123 School Street, City</p>
-            <p className="flex items-center gap-2"><Phone className="text-blue-500" /> +123 456 7890</p>
-            <p className="flex items-center gap-2"><Mail className="text-blue-500" /> info@ourschool.com</p>
+            <p className="flex items-center gap-2"><MapPin className="text-yellow-400" />28D, 6th Road, Satellite Town, Rawalpindi, Pakistan</p>
+            <p className="flex items-center gap-2"><Phone className="text-yellow-400" /> 0334-5822151 | 0333-5552471</p>
+            <p className="flex items-center gap-2"><Mail className="text-yellow-400" /> info@ourschool.com</p>
           </div>
         </motion.div>
 
@@ -67,18 +67,18 @@ export default function Footer() {
           transition={{ duration: 0.8, delay: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-2xl font-bold text-blue-500">Follow Us</h2>
+          <h2 className="text-2xl font-bold text-yellow-400">Follow Us</h2>
           <div className="flex gap-4">
-            <a href="#" className="text-gray-400 hover:text-blue-500 transition duration-300"><Facebook size={24} /></a>
-            <a href="#" className="text-gray-400 hover:text-blue-500 transition duration-300"><Twitter size={24} /></a>
-            <a href="#" className="text-gray-400 hover:text-blue-500 transition duration-300"><Instagram size={24} /></a>
+            <a href="https://www.facebook.com/aemssofficial" className="text-gray-400 hover:text-yellow-400 transition duration-300"><Facebook size={24} /></a>
+            <a href="#" className="text-gray-400 hover:text-yellow-400 transition duration-300"><Twitter size={24} /></a>
+            <a href="#" className="text-gray-400 hover:text-yellow-400 transition duration-300"><Instagram size={24} /></a>
           </div>
         </motion.div>
       </div>
 
       {/* Footer Bottom */}
       <div className="mt-12 text-center text-gray-500 border-t border-gray-700 pt-6">
-        <p>© {new Date().getFullYear()} Our School. All Rights Reserved.</p>
+        <p>© {new Date().getFullYear()} Ansaar-e-Muhammad School System. All Rights Reserved.</p>
       </div>
     </footer>
   );

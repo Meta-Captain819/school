@@ -76,7 +76,7 @@ export default function Testimonials() {
                   </div>
                   <p className="text-gray-700 italic">{testimony.feedback}</p>
                   <h3 className="text-xl font-semibold mt-4 text-black">{testimony.name}</h3>
-                  <p className="text-blue-600 font-medium">{testimony.role}</p>
+                  <p className="text-yellow-400 font-medium">{testimony.role}</p>
                 </motion.div>
           </SwiperSlide>
         ))}

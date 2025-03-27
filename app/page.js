@@ -46,7 +46,7 @@ export default function Home() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="https://images.unsplash.com/photo-1588075592405-d3d4f0846961?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Make sure you have this image in the public folder
+          src="/hero.jpg" // Make sure you have this image in the public folder
           alt="School Background"
           layout="fill"
           objectFit="cover"
@@ -55,7 +55,7 @@ export default function Home() {
       </div>
 
       {/* Content Section */}
-      <div className="relative  text-white px-">
+      <div className="relative  text-white ">
         {/* Logo Section */}
         <motion.div
           initial={{ opacity: 0, scale:0.95 }}
@@ -64,7 +64,7 @@ export default function Home() {
           className="flex gap-6 items-center rounded-2xl"
         >
           {/* <Image src="https://plus.unsplash.com/premium_photo-1710672205278-9a24775844be?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="School Logo" width={120} height={120} className="rounded-4xl overflow-hidden" /> */}
-          <p className="text-5xl mt-3 text-yellow-400">School of Excellence</p>
+          <p className="text-5xl mt-24 md:mt-3 text-yellow-400 ">Ansaar-e-Muhammad School System</p>
         </motion.div>
 
         {/* Heading & Paragraph Section */}
@@ -72,44 +72,39 @@ export default function Home() {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className="mt-12"
+          className="md:mt-12 mt-2"
         >
-          <h1 className="text-4xl md:text-6xl font-bold">
+          <h1 className="text-4xl md:text-6xl font-bold hidden md:block">
             Welcome to Our School
           </h1>
-          <p className="text-lg md:text-xl mt-3 max-w-2xl mx-auto">
-            Providing quality education and fostering the leaders of tomorrow.
-          </p>
+          <p className="text-lg md:text-xl md:mt-3 max-w-2xl">
+          Ansaar-e-Muhammad School System offers a perfect blend of academic excellence and Islamic values, shaping confident and successful individuals.          </p>
         </motion.div>
      
       </div>
-      {/* <motion.div 
-      className="relative w-full max-w-md md:max-w-lg bg-white/30 backdrop-blur-lg shadow-lg rounded-2xl p-6 md:p-8 text-center border border-white/40"
+      <motion.div 
+      className="relative w-full max-w-md md:max-w-lg bg-white/30 backdrop-blur-xs shadow-lg rounded-2xl p-6 md:p-8 text-center border border-white/40"
       initial={{ opacity: 0, scale: 0.9 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}
-    > */}
+    >
       {/* Title */}
-      {/* <h2 className="text-xl md:text-2xl font-bold text-white drop-shadow-lg">
+      <h2 className="text-xl md:text-2xl font-bold text-white drop-shadow-lg">
         Admissions Open for 2025!
-      </h2> */}
+      </h2>
       
-      {/* Description */}
-      {/* <p className="mt-2 text-sm md:text-base text-white/90">
-        Enroll now for quality education and a brighter future.
-      </p> */}
       
       {/* Apply Now Button */}
-      {/* <motion.a 
-        href="/apply" 
-        className="mt-4 inline-block px-6 py-3 text-sm md:text-base font-semibold bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition-all"
+      <motion.a 
+        href="/admission" 
+        className="mt-4 inline-block px-6 py-3 text-sm md:text-base font-semibold bg-yellow-400 text-white rounded-lg shadow-md hover:bg-blue-700 transition-all"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
       >
         Apply Now
       </motion.a>
-    </motion.div> */}
+    </motion.div>
       
     </div>
 
