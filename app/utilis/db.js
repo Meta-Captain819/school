@@ -12,10 +12,7 @@ export async function connectToDatabase() {
   if (cached.conn) return cached.conn;
 
   if (!cached.promise) {
-    cached.promise = mongoose.connect(MONGODB_URI, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
+    cached.promise = mongoose.connect(MONGODB_URI); // Removed deprecated options
   }
   
   cached.conn = await cached.promise;
