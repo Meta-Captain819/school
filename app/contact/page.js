@@ -50,7 +50,7 @@ export default function ContactPage() {
             </div>
             <div className="flex items-center space-x-4">
               <Mail size={28} className="text-yellow-400" />
-              <p className="text-gray-700">info@schoolname.com</p>
+              <p className="text-gray-700">AnsaareMuhammad82@gmail.com</p>
             </div>
           </motion.div>
 

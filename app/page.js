@@ -2,40 +2,40 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { BookOpen, GraduationCap, Users, Brush, Heart, Laptop } from "lucide-react";
 import SchoolInfo from "./components/SchoolInfo";
 import Testimonials from "./components/Testimonials";
+import { BookOpen, UserCheck, Users, Star, Shield, Globe } from "lucide-react";
 
 const services = [
   {
-    title: "Quality Education",
-    description: "Comprehensive curriculum designed for excellence.",
+    title: "Academic Excellence",
+    description: "Comprehensive curriculum designed to foster intellectual growth and critical thinking.",
     icon: <BookOpen size={40} className="text-blue-600" />,
   },
   {
-    title: "Certified Teachers",
-    description: "Highly qualified and experienced teaching staff.",
-    icon: <GraduationCap size={40} className="text-green-600" />,
+    title: "Islamic Values Integration",
+    description: "Education infused with Islamic teachings to develop moral and ethical individuals.",
+    icon: <UserCheck size={40} className="text-green-600" />,
   },
   {
-    title: "Student Counseling",
-    description: "Guidance and mentorship for student success.",
+    title: "Experienced Educators",
+    description: "Dedicated and qualified teachers committed to student success.",
     icon: <Users size={40} className="text-purple-600" />,
   },
   {
-    title: "Extracurricular Activities",
-    description: "Sports, arts, and music programs for overall development.",
-    icon: <Brush size={40} className="text-red-600" />,
+    title: "Holistic Development",
+    description: "Focus on both academic and personal growth to shape well-rounded individuals.",
+    icon: <Star size={40} className="text-red-600" />,
   },
   {
-    title: "Health & Safety",
-    description: "Ensuring a safe and secure environment for students.",
-    icon: <Heart size={40} className="text-pink-600" />,
+    title: "Safe Learning Environment",
+    description: "Ensuring a secure and supportive atmosphere conducive to learning.",
+    icon: <Shield size={40} className="text-pink-600" />,
   },
   {
-    title: "Technology Integration",
-    description: "Smart classrooms and digital learning resources.",
-    icon: <Laptop size={40} className="text-yellow-600" />,
+    title: "Community Engagement",
+    description: "Encouraging active participation in community service and social responsibility.",
+    icon: <Globe size={40} className="text-yellow-600" />,
   },
 ];
 
@@ -98,7 +98,7 @@ export default function Home() {
       {/* Apply Now Button */}
       <motion.a 
         href="/admission" 
-        className="mt-4 inline-block px-6 py-3 text-sm md:text-base font-semibold bg-yellow-400 text-white rounded-lg shadow-md hover:bg-blue-700 transition-all"
+        className="mt-4 inline-block px-6 py-3 text-sm md:text-base font-semibold bg-yellow-400 text-white rounded-lg shadow-md hover:bg-yellow-500 transition-all"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
       >

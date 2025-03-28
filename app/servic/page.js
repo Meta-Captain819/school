@@ -1,40 +1,42 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { BookOpen, Users, FlaskConical, Palette, Music, Dumbbell } from "lucide-react";
+import { BookOpen, Dumbbell, FlaskConical, Palette,  Users } from "lucide-react";
 
 const services = [
   {
-    title: "Quality Education",
-    description: "We provide top-notch education with a well-structured curriculum and experienced teachers.",
-    icon: <BookOpen size={40} />,
+    title: "Academic Excellence",
+    description: "Structured curriculum with experienced teachers to ensure high-quality education.",
+    icon: <BookOpen size={40} className="text-blue-600" />,
   },
   {
-    title: "Sports & Athletics",
-    description: "Encouraging students to participate in various sports and physical activities.",
-    icon: <Dumbbell size={40} />,
+    title: "Physical Activities & Sports",
+    description: "Encouraging students to stay active with various sports and fitness programs.",
+    icon: <Dumbbell size={40} className="text-green-600" />,
   },
   {
-    title: "Science Labs",
-    description: "Well-equipped laboratories for hands-on scientific experiments and research.",
-    icon: <FlaskConical size={40} />,
+    title: "Science & Innovation",
+    description: "Equipped laboratories for hands-on scientific learning and innovation.",
+    icon: <FlaskConical size={40} className="text-purple-600" />,
   },
   {
     title: "Arts & Creativity",
-    description: "Dedicated art classes to nurture creativity and artistic expression.",
-    icon: <Palette size={40} />,
+    description: "Developing artistic skills through painting, calligraphy, and craft activities.",
+    icon: <Palette size={40} className="text-red-600" />,
   },
   {
-    title: "Music & Performing Arts",
-    description: "Opportunities for students to explore their musical and performing arts skills.",
-    icon: <Music size={40} />,
+    title: "Islamic Education",
+    description: "Qur’an recitation, Hadith learning, and character-building through Islamic teachings.",
+    icon: <BookOpen size={40} className="text-yellow-600" />,
   },
   {
-    title: "Student Counseling",
-    description: "Providing emotional and academic guidance for a healthy school environment.",
-    icon: <Users size={40} />,
+    title: "Student Guidance & Well-being",
+    description: "Providing academic and emotional counseling for student growth and success.",
+    icon: <Users size={40} className="text-pink-600" />,
   },
 ];
+
+
 
 export default function ServicesPage() {
   return (
@@ -80,7 +82,7 @@ export default function ServicesPage() {
               <div className="bg-yellow-400 text-white p-4 rounded-full mb-4">
                 {service.icon}
               </div>
-              <h3 className="text-2xl font-semibold">{service.title}</h3>
+              <h3 className="text-2xl font-semibold text-yellow-500">{service.title}</h3>
               <p className="text-gray-600 mt-2">{service.description}</p>
             </motion.div>
           ))}

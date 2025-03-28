@@ -33,6 +33,7 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
           <NavLink href="/">Home</NavLink>
+          <NavLink href="/feestructure">Fee Structure</NavLink>
           <NavLink href="/about">About</NavLink>
           <NavLink href="/servic">Services</NavLink>
           <NavLink href="/contact">Contact</NavLink>
@@ -61,6 +62,9 @@ const Navbar = () => {
               <NavLink href="/" onClick={() => setIsOpen(false)}>
                 Home
               </NavLink>
+              <NavLink href="/feestructure" onClick={() => setIsOpen(false)}>
+                Fee Structure
+              </NavLink>
               <NavLink href="/about" onClick={() => setIsOpen(false)}>
                 About
               </NavLink>
@@ -70,6 +74,8 @@ const Navbar = () => {
               <NavLink href="/contact" onClick={() => setIsOpen(false)}>
                 Contact
               </NavLink>
+              <NavLink  href={login ? "/admin":"login"} onClick={() => setIsOpen(false) }>{login ? "Admin Panel" :"Admin Login"}</NavLink>
+
             </div>
           </motion.div>
         )}

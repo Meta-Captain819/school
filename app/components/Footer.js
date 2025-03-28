@@ -55,7 +55,7 @@ export default function Footer() {
           <div className="text-gray-400 space-y-2">
             <p className="flex items-center gap-2"><MapPin className="text-yellow-400" />28D, 6th Road, Satellite Town, Rawalpindi, Pakistan</p>
             <p className="flex items-center gap-2"><Phone className="text-yellow-400" /> 0334-5822151 | 0333-5552471</p>
-            <p className="flex items-center gap-2"><Mail className="text-yellow-400" /> info@ourschool.com</p>
+            <p className="flex items-center gap-2"><Mail className="text-yellow-400" /> AnsaareMuhammad82@gmail.com</p>
           </div>
         </motion.div>
 

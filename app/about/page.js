@@ -84,7 +84,7 @@ export default function AboutPage() {
                 viewport={{ once: true }}
               >
                 <CheckCircle size={40} className="text-yellow-400 mb-3" />
-                <h3 className="text-xl md:text-2xl font-bold">{item.title}</h3>
+                <h3 className="text-xl md:text-2xl font-bold text-yellow-500">{item.title}</h3>
                 <p className="text-gray-600 mt-2 text-sm md:text-base">{item.desc}</p>
               </motion.div>
             ))}

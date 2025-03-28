@@ -137,7 +137,7 @@ export default function AdmissionForm() {
       <button
         type="submit"
         disabled={loading}
-        className="w-full p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all"
+        className="w-full p-3 bg-yellow-400 text-white rounded-lg hover:bg-yellow-500 transition-all cursor-pointer"
       >
         {loading ? "Submitting..." : "Submit Application"}
       </button>
