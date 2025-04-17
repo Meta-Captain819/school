@@ -46,11 +46,11 @@ export default function ContactPage() {
             </div>
             <div className="flex items-center space-x-6">
               <PhoneCall size={28} className="text-yellow-400" />
-              <p className="text-gray-700">0333-5552471 | 0334-5822151</p>
+              <p className="text-gray-700">0333-0000000 | 0334-0000000</p>
             </div>
             <div className="flex items-center space-x-4">
               <Mail size={28} className="text-yellow-400" />
-              <p className="text-gray-700">AnsaareMuhammad82@gmail.com</p>
+              <p className="text-gray-700">school@gmail.com</p>
             </div>
           </motion.div>
 

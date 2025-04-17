@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className=" font-bold flex items-center gap-6 text-gray-900">
            <Image src="/ansarlogo.png" alt="School Logo" width={60} height={60} className="rounded-4xl overflow-hidden" />
-                    <p className="text-lg text-yellow-400">Ansaar-e-Muhammad School System</p>
+                    <p className="text-lg text-yellow-400">School Education System</p>
         </Link>
 
         {/* Desktop Menu */}

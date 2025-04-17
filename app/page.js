@@ -64,7 +64,7 @@ export default function Home() {
           className="flex gap-6 items-center rounded-2xl"
         >
           {/* <Image src="https://plus.unsplash.com/premium_photo-1710672205278-9a24775844be?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="School Logo" width={120} height={120} className="rounded-4xl overflow-hidden" /> */}
-          <p className="text-5xl mt-24 md:mt-3 text-yellow-400 ">Ansaar-e-Muhammad School System</p>
+          <p className="text-5xl mt-24 md:mt-3 text-yellow-400 "> School EducationSystem</p>
         </motion.div>
 
         {/* Heading & Paragraph Section */}
@@ -78,7 +78,7 @@ export default function Home() {
             Welcome to Our School
           </h1>
           <p className="text-lg md:text-xl md:mt-3 max-w-2xl">
-          Ansaar-e-Muhammad School System offers a perfect blend of academic excellence and Islamic values, shaping confident and successful individuals.          </p>
+           School Education System offers a perfect blend of academic excellence and Islamic values, shaping confident and successful individuals.          </p>
         </motion.div>
      
       </div>

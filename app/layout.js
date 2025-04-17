@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Ansar-e-Muhammad Education System",
+  title: "School Education System",
   icons: {
     icon: "/favicon.ico",
     apple: "/apple-touch-icon.png",
