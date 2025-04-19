@@ -20,7 +20,7 @@ export const metadata = {
     icon: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
-  description: "Ansaar-e-Muhammad School System offers a perfect blend of academic excellence and Islamic values, shaping confident and successful individuals!",
+  description: " Education System offers a perfect blend of academic excellence and Islamic values, shaping confident and successful individuals!",
   keywords: "school, education, learning, excellence, students, teachers, curriculum, values, success, ansar-e-muhammad school system. ansar-e-muhammad, ansar, education system, school system, islamic values, academic excellence",
   authors: [{ name: "Ansar-e-Muhammad" }],
   creator: "Ansar-e-Muhammad",
